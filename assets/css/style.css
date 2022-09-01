@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: ;
 }
 
 body{
@@ -14,13 +13,35 @@ img {
     max-width: 100%;
 }
 
+
+header, p{
+    text-align: center;
+    margin-top: 30px;
+}
+
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
 
-header, p{
-    text-align: center;
-    margin-top: 30px;
+.row{
+    color: white;
+    margin-top: 50px;
+}
+
+.col{
+    width: calc(100% / 3 - 30px);
+    float: left;
+    background-color: burlywood;
+    margin: 0 10px;
+}
+
+.photo{
+    float: left;
+}
+
+.member_team{
+    padding: 0 10px;
+    float: left;
 }
