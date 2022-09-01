@@ -1,3 +1,26 @@
-*{
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: ;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header, p{
+    text-align: center;
+    margin-top: 30px;
 }
